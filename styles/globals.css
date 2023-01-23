@@ -8,4 +8,67 @@
 
 #header {
   z-index: 999;
+  position: fixed;
+}
+
+#header .logo {
+  width: 120px;
+}
+
+@media (max-width: 768px) {
+  #header .logo {
+    max-width: 80px;
+  }
+}
+
+@media (max-width: 575px) {
+  #header .logo {
+    max-width: 60px;
+  }
+}
+
+/* Buttons */
+
+.btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 14px;
+  font-family: 'Poppins', sans-serif;
+  min-height: 48px;
+  min-width: 200px;
+  border-radius: 40px;
+  padding: 0 16px;
+}
+.btn-white {
+  background-color: white;
+  color: black;
+}
+
+.btn-black {
+  background-color: black;
+  color: white;
+}
+
+.btn-divider {
+  width: 1px;
+  background-color: #bec1c7;
+  height: 24px;
+  margin: 0 8px;
+}
+
+.section-content {
+  padding: 120px 0;
+}
+
+.swiper-pagination {
+  bottom: 10px !important;
+}
+
+.swiper-pagination * {
+  background-color: white !important;
+}
+
+.swiper-scrollbar-drag {
+  background-color: rgba(255, 255, 255, 0.3) !important;
 }

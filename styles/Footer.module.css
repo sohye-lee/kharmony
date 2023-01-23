@@ -1,0 +1,9 @@
+.curve {
+  position: absolute;
+  bottom: 00px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 105vw;
+  height: auto;
+  z-index: 0;
+}
