@@ -13,6 +13,7 @@ export default function About() {
   return (
     <div
       className={`section-content w-full flex justify-center ${styles.aboutSection}`}
+      id="about"
     >
       <div
         className={`flex flex-col lg:flex-row items-center ${styles.aboutContent}`}

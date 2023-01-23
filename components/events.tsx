@@ -4,7 +4,7 @@ import Bar from './bar';
 
 export default function Events() {
   return (
-    <div className="section-content flex flex-col items-center">
+    <div className="section-content flex flex-col items-center" id="events">
       <h2 className="font-serif font-bold italic text-4xl">Our Next Events</h2>
       <Bar />
       {/* <div className="bg-gradient-to-r from-secondary to-primary h-1 w-20 mt-3 mb-5"></div> */}

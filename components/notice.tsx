@@ -6,7 +6,7 @@ import Accordion from './accordion';
 
 export default function Notice() {
   return (
-    <div className="section-content flex flex-col items-center">
+    <div className="section-content flex flex-col items-center" id="notice">
       <h2 className="font-serif font-bold italic text-4xl">Notice</h2>
       <Bar />
       <div className="w-96 max-w-lg ">

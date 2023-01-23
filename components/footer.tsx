@@ -6,7 +6,10 @@ import styles from '../styles/Footer.module.css';
 export default function Footer() {
   return (
     <footer id="footer" className="w-full bg-black">
-      <div className="flex flex-col lg:flex-row justify-center items-center section-content relative">
+      <div
+        className="flex flex-col lg:flex-row justify-center items-center section-content relative"
+        id="join"
+      >
         <div className="flex flex-col items-center max-w-lg py-9 lg:py-0 px-8 z-10">
           <h2 className="text-white font-serif font-bold italic text-center text-3xl md:text-4xl mb-3">
             Join Us
@@ -34,7 +37,10 @@ export default function Footer() {
         </div>
         <img src="/images/curve.svg" alt="wave" className={styles.curve} />
       </div>
-      <div className="section-content w-full flex flex-col items-center">
+      <div
+        className="section-content w-full flex flex-col items-center"
+        id="contact"
+      >
         <Link href="/">
           <Image
             src="/logo/logo-white.svg"

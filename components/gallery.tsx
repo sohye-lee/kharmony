@@ -10,7 +10,7 @@ import 'swiper/css/scrollbar';
 
 export default function Gallery() {
   return (
-    <div className={`section-content ${styles.gallerySection}`}>
+    <div className={`section-content ${styles.gallerySection}`} id="gallery">
       <h2 className="text-white font-serif italic font-bold text-3xl md:text-4xl">
         Our Precious Moments
       </h2>

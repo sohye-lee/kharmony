@@ -39,31 +39,31 @@ export default function Header() {
             Our Story
           </Link>
           <Link
-            href="#about"
+            href="#"
             className="text-white text-md font-sans hover:text-blue-300"
           >
             Apply
           </Link>
           <Link
-            href="#about"
+            href="#notice"
             className="text-white text-md font-sans hover:text-blue-300"
           >
             Notice
           </Link>
           <Link
-            href="#about"
+            href="#gallery"
             className="text-white text-md font-sans hover:text-blue-300"
           >
             Gallery
           </Link>
           <Link
-            href="#about"
+            href="#join"
             className="text-white text-md font-sans hover:text-blue-300"
           >
             Support
           </Link>
           <Link
-            href="#about"
+            href="#contact"
             className="text-white text-md font-sans hover:text-blue-300"
           >
             Reach Us

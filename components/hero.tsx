@@ -5,7 +5,7 @@ import styles from '../styles/Hero.module.css';
 
 export default function Hero() {
   return (
-    <section id="hero-container" className={styles.hero}>
+    <section id="hero" className={styles.hero}>
       <div className={styles.hero}>
         <h1 className="font-serif italic text-4xl md:text-5xl font-bold text-white text-center mb-4">
           we sing for
