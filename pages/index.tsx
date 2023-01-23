@@ -1,10 +1,10 @@
+import About from '@/components/about';
 import Events from '@/components/events';
 import Footer from '@/components/footer';
 import Gallery from '@/components/gallery';
 import Header from '@/components/header';
 import Hero from '@/components/hero';
 import Notice from '@/components/notice';
-import { useState } from 'react';
 
 export default function Home() {
   return (
@@ -12,8 +12,9 @@ export default function Home() {
       <Header />
       <Hero />
       <Events />
-      <Gallery />
+      <About />
       <Notice />
+      <Gallery />
       <Footer />
     </div>
   );

@@ -1,3 +1,4 @@
+import Image from 'next/image';
 import Link from 'next/link';
 import React from 'react';
 import styles from '../styles/Footer.module.css';
@@ -32,6 +33,86 @@ export default function Footer() {
           </div>
         </div>
         <img src="/images/curve.svg" alt="wave" className={styles.curve} />
+      </div>
+      <div className="section-content w-full flex flex-col items-center">
+        <Link href="/">
+          <Image
+            src="/logo/logo-white.svg"
+            width={160}
+            height={100}
+            alt="logo"
+          />
+        </Link>
+        <div className=" mt-9">
+          <div className="mb-4">
+            <p className="font-sans text-sm text-gray-400 font-light">E-Mail</p>
+            <Link
+              href="mailto:info@k-harmony.org"
+              className="font-serif font-bold italic text-primary text-lg"
+            >
+              info@k-harmony.org
+            </Link>
+          </div>
+          <div className="mb-4">
+            <p className="font-sans text-sm text-gray-400 font-light">Phone</p>
+            <Link
+              href="tel:+17031234567"
+              className="font-serif font-bold italic text-primary text-lg"
+            >
+              +1 703 123 4567
+            </Link>
+          </div>
+          <div className="mb-4">
+            <p className="font-sans text-sm text-gray-400 font-light">
+              Address
+            </p>
+            <Link
+              href="#"
+              className="font-serif font-bold italic text-primary text-lg"
+            >
+              1234 Main St. Fairfax, VA 22031
+            </Link>
+          </div>
+          <div className="mb-4">
+            <p className="font-sans text-sm text-gray-400 font-light">
+              Social Links
+            </p>
+            <div className="flex items-center">
+              <Link
+                href="#"
+                target="_blank"
+                className="font-serif font-bold italic text-primary text-lg"
+              >
+                Facebook
+              </Link>
+              <span className="text-gray-500 text-lg mx-2">|</span>
+              <Link
+                href="#"
+                target="_blank"
+                className="font-serif font-bold italic text-primary text-lg"
+              >
+                Instagram
+              </Link>
+              <span className="text-gray-500 text-lg mx-2">|</span>
+              <Link
+                href="https://www.youtube.com/@k-harmonywashingtond.cchil3863"
+                target="_blank"
+                className="font-serif font-bold italic text-primary text-lg"
+              >
+                Youtube
+              </Link>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div className="w-full border-t border-slate-500 py-3 text-gray-400 text-center text-sm">
+        © 2023 K-Harmony. All Rights Reserved
+        <br />
+        Designed and developed by{' '}
+        <Link href="https://sohye.dev" target="_blank" className="underline">
+          Sohye
+        </Link>
+        .
       </div>
     </footer>
   );
