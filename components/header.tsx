@@ -70,7 +70,10 @@ export default function Header() {
           </Link>
         </div>
         <div className="flex items-center justify-end space-x-4">
-          <Link href="youtube.com">
+          <Link
+            href="https://www.youtube.com/@k-harmonywashingtond.cchil3863"
+            target="_blank"
+          >
             <Image
               src="/icons/youtube.svg"
               width="20"
@@ -79,7 +82,7 @@ export default function Header() {
               className="hover:opacity-70"
             />
           </Link>
-          <Link href="facebook.com">
+          <Link href="facebook.com" target="_blank">
             <Image
               src="/icons/facebook.svg"
               width="20"
@@ -88,7 +91,7 @@ export default function Header() {
               className="hover:opacity-70"
             />
           </Link>
-          <Link href="instagram.com">
+          <Link href="instagram.com" target="_blank">
             <Image
               src="/icons/instagram.svg"
               width="20"
