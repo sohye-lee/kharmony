@@ -5,6 +5,7 @@ import Gallery from '@/components/gallery';
 import Header from '@/components/header';
 import Hero from '@/components/hero';
 import Notice from '@/components/notice';
+import ScrollToTop from '@/components/scrollToTop';
 
 export default function Home() {
   return (
@@ -16,6 +17,7 @@ export default function Home() {
       <Notice />
       <Gallery />
       <Footer />
+      <ScrollToTop />
     </div>
   );
 }

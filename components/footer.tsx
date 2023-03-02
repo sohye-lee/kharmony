@@ -19,7 +19,12 @@ export default function Footer() {
             after receiving your application.
           </p>
           <div className="btn btn-white hover:bg-secondary-light">
-            <Link href="#">Go Submit Application</Link>
+            <Link
+              href="https://docs.google.com/forms/d/1Glx0xY6gE6hQpkmZ8mc8RQFW3VsX_mkTGDgSWyM-Gzk/"
+              target="_blank"
+            >
+              Go Submit Application
+            </Link>
           </div>
         </div>
         <div className="divider  border-b w-52 h-0 lg:border-r lg:w-0  border-slate-50 opacity-20 lg:h-52"></div>
@@ -54,7 +59,7 @@ export default function Footer() {
             <p className="font-sans text-sm text-gray-400 font-light">E-Mail</p>
             <Link
               href="mailto:info@k-harmony.org"
-              className="font-serif font-bold italic text-primary text-lg"
+              className="font-serif font-bold italic text-primary hover:text-primary-light transition text-lg"
             >
               info@k-harmony.org
             </Link>
@@ -63,12 +68,12 @@ export default function Footer() {
             <p className="font-sans text-sm text-gray-400 font-light">Phone</p>
             <Link
               href="tel:+17031234567"
-              className="font-serif font-bold italic text-primary text-lg"
+              className="font-serif font-bold italic text-primary hover:text-primary-light transition text-lg"
             >
-              +1 703 123 4567
+              +1 571 324 5035
             </Link>
           </div>
-          <div className="mb-4">
+          {/* <div className="mb-4">
             <p className="font-sans text-sm text-gray-400 font-light">
               Address
             </p>
@@ -78,24 +83,24 @@ export default function Footer() {
             >
               1234 Main St. Fairfax, VA 22031
             </Link>
-          </div>
+          </div> */}
           <div className="mb-4">
             <p className="font-sans text-sm text-gray-400 font-light">
               Social Links
             </p>
             <div className="flex items-center">
               <Link
-                href="#"
+                href="https://www.facebook.com/kharmonychoir"
                 target="_blank"
-                className="font-serif font-bold italic text-primary text-lg"
+                className="font-serif font-bold italic text-primary hover:text-primary-light transition text-lg"
               >
                 Facebook
               </Link>
               <span className="text-gray-500 text-lg mx-2">|</span>
               <Link
-                href="#"
+                href="https://www.instagram.com/k.harmonychoir"
                 target="_blank"
-                className="font-serif font-bold italic text-primary text-lg"
+                className="font-serif font-bold italic text-primary hover:text-primary-light transition text-lg"
               >
                 Instagram
               </Link>
@@ -103,7 +108,7 @@ export default function Footer() {
               <Link
                 href="https://www.youtube.com/@k-harmonywashingtond.cchil3863"
                 target="_blank"
-                className="font-serif font-bold italic text-primary text-lg"
+                className="font-serif font-bold italic text-primary hover:text-primary-light transition text-lg"
               >
                 Youtube
               </Link>

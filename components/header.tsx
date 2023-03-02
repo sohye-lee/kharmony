@@ -39,8 +39,9 @@ export default function Header() {
             Our Story
           </Link>
           <Link
-            href="#"
+            href="https://docs.google.com/forms/d/1Glx0xY6gE6hQpkmZ8mc8RQFW3VsX_mkTGDgSWyM-Gzk/"
             className="text-white text-md font-sans hover:text-blue-300"
+            target="_blank"
           >
             Apply
           </Link>
@@ -82,7 +83,7 @@ export default function Header() {
               className="hover:opacity-70"
             />
           </Link>
-          <Link href="facebook.com" target="_blank">
+          <Link href="https://www.facebook.com/kharmonychoir" target="_blank">
             <Image
               src="/icons/facebook.svg"
               width="20"
@@ -91,7 +92,7 @@ export default function Header() {
               className="hover:opacity-70"
             />
           </Link>
-          <Link href="instagram.com" target="_blank">
+          <Link href="www.instagram.com/k.harmonychoir" target="_blank">
             <Image
               src="/icons/instagram.svg"
               width="20"
@@ -136,28 +137,28 @@ export default function Header() {
           Apply
         </Link>
         <Link
-          href="#"
+          href="#notice"
           className="w-full text-white text-center p-3 hover:bg-slate-900"
           onClick={() => setIsOpen(!isOpen)}
         >
           Notice
         </Link>
         <Link
-          href="#"
+          href="#gallery"
           className="w-full text-white text-center p-3 hover:bg-slate-900"
           onClick={() => setIsOpen(!isOpen)}
         >
           Gallery
         </Link>
         <Link
-          href="#"
+          href="#join"
           className="w-full text-white text-center p-3 hover:bg-slate-900"
           onClick={() => setIsOpen(!isOpen)}
         >
           Support
         </Link>
         <Link
-          href="#"
+          href="#contact"
           className="w-full text-white text-center p-3 hover:bg-slate-900"
           onClick={() => setIsOpen(!isOpen)}
         >
