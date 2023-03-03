@@ -21,7 +21,11 @@ export default function Hero() {
             About Us
           </Link>
           <div className="btn-divider"></div>
-          <Link href="#about" className=" text-primary hover:text-secondary">
+          <Link
+            href="https://docs.google.com/forms/d/1Glx0xY6gE6hQpkmZ8mc8RQFW3VsX_mkTGDgSWyM-Gzk/"
+            target="_blank"
+            className=" text-primary hover:text-secondary"
+          >
             Apply & Join
           </Link>
         </div>
