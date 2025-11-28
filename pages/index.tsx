@@ -9,15 +9,16 @@ import ScrollToTop from '@/components/scrollToTop';
 
 export default function Home() {
   return (
-    <div className="">
-      <Header />
+    <div className="flex items-center justify-center h-screen w-screen bg-slate-900">
+      {/* <Header />
       <Hero />
       <Events />
       <About />
       <Notice />
       <Gallery />
       <Footer />
-      <ScrollToTop />
+      <ScrollToTop /> */}
+      <div className="text-2xl text-white">Under construction</div>
     </div>
   );
 }
